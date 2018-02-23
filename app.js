@@ -1,3 +1,8 @@
+/**
+ * Code to connect with back end.
+ * @param app
+ */
+
 module.exports = function (app) {
 
     var niperModel = require('./models/nipper.model.server');

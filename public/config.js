@@ -1,3 +1,7 @@
+/**
+ * Configuring Routes Between different views.
+ */
+
 (function(){
     angular
         .module("Nipper")

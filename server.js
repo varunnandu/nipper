@@ -13,7 +13,10 @@ app.use(cookieParser());
 
 // configure a public directory to host static content
 app.use(express.static(__dirname + '/public'));
-require('./app')(app);
-var port = process.env.PORT || 3000;
 
+//Connecting the  Server Side app.js
+require('./app')(app);
+
+// Hosting on http://localhost:3000/#/
+var port = process.env.PORT || 3000;
 app.listen(port);

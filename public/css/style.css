@@ -46,15 +46,6 @@ html, body {
     line-height: 40px;
 }
 
-.options{
-    color: #CDA267;
-    font-family:"Calibri";
-    margin: 10px 20px 16px;
-    height: 30px;
-
-
-}
-
 .row{
     background-color: #F5F5E6;
 }
@@ -72,12 +63,6 @@ html, body {
     margin: 5px;
 }
 
-.image-box{
-    width: 300px;
-    border: 25px #E9E581;
-    padding: 25px;
-    margin: 25px;
-}
 
 .media-object {
     height: 200px;
@@ -106,10 +91,6 @@ a{
 
 
 
-.h3-login-main, .h3-register-main {
-    margin-top: 0px;
-    margin-bottom: 20px;
-}
 
 .btn-search {
     color: white;
@@ -117,13 +98,8 @@ a{
 }
 
 
-.h3-page-header {
-    margin: 0px 0 20px;
-}
 
-.nowrap {
-    white-space: nowrap;
-}
+
 .bg-color{
     background-color: #854541;
     color: #CDA267;
@@ -142,44 +118,13 @@ a{
 }
 
 
-.media-object-movie {
-    max-height: 100%;
-    max-width: 90%;
-    object-fit: contain;
-}
 .media-heading{
     margin-bottom: 5px;
     margin-top: 10px;
 }
 
-.no-left-padding {
-    padding-left: 0px;
-}
-
-.less-padding {
-    padding: 5px;
-}
-
-.bottom-margin {
-    margin-bottom: 10px;
-}
-
-.text-align-center {
-    text-align: center;
-}
-
-.display-inline-block {
-    display: inline-block;
-}
-
-.less-top-margin {
-    margin-top: 5px;
-}
 
 
-.table-bordered > tbody > tr > td {
-    vertical-align: middle;
-}
 .block {
     text-align:center;
 }
@@ -190,32 +135,8 @@ body {
     padding-top: 5px;
 }
 
-
-
-.sub-header {
-    padding-bottom: 10px;
-    border-bottom: 1px solid #eee;
-}
-
-
-
-.main {
-    padding: 20px;
-}
-
-.placeholders {
-    margin-bottom: 30px;
-    text-align: center;
-}
-.placeholders h4 {
-    margin-bottom: 0;
-}
 .placeholder {
     margin-bottom: 20px;
-}
-.placeholder img {
-    display: inline-block;
-    border-radius: 50%;
 }
 
 

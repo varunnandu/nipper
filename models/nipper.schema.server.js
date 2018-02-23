@@ -1,3 +1,8 @@
+/**
+ * Creates Mongoose Schema.
+ * @type {*|Mongoose}
+ */
+
 var mongoose = require('mongoose');
 var NipperSchema = mongoose.Schema({
     name: String,
