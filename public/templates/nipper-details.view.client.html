@@ -1,0 +1,50 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="col-xs-2">
+        <a href="#/listAll"
+           class="left-arrow col-lg-1 col-md-1 col-sm-1 col-xs-1">
+            <i class="far fa-arrow-alt-circle-left"></i>
+        </a>
+        </div>
+        <div class="col-xs-10">
+            <div class="navbar-header">
+                <a class="navbar-brand"
+                   href="#/home">Nipper</a>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="container-fluid row complete-height">
+        <div class="col-xs-6">
+            <div class="block center center-fix">
+                    <img class="margin-adjust-top"
+                         width="80%"
+                         height="80%"
+                         ng-src="{{model.niper.path}}">
+            </div>
+
+        </div>
+        <div class="col-xs-6">
+            <h1>Profile Info</h1>
+
+            <div class="form-group margin-adjust-top">
+                    <h2>Name</h2>
+                    <div class="input-group">
+                        <p>{{model.niper.name}}</p>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <h2>Artist</h2>
+                    <div class="input-group">
+                        <p> {{model.niper.artist}}</p>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <h2>Address</h2>
+                    <div class="input-group">
+                        <p>{{model.niper.address}}</p>
+                    </div>
+                </div>
+
+    </div>
+</div>

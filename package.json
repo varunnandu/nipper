@@ -1,0 +1,21 @@
+{
+  "name": "Nipper",
+  "version": "1.0.0",
+  "description": "Created Nipper App ",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.1",
+    "mongoose": "^4.4.15",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "node-uuid": "^1.4.7",
+    "q": "^1.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Varun Nandu"
+}
