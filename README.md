@@ -49,5 +49,3 @@ $ mongod
 $ node server.js (Run this in a different command prompt or terminal window).
 ```
 I have hosted my app on heroku and the app can be [viewed and tested here](https://nipper.herokuapp.com/#/).
-
-I have created a mock database of the data provided so no unnecessary steps are required.
