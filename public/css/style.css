@@ -1,7 +1,10 @@
-
+.fix-top{
+    margin-top:-10px;
+}
 .navbar-default {
     background-color: #854541;
     font-family: 'Lobster', Georgia, Times, serif;
+    margin-top: 0;
 }
 
 .navbar-brand{
