@@ -19,7 +19,8 @@
                         type="text"
                         class="form-control"
                         width="100%"
-                        placeholder="Find Nipper By Name...">
+                        placeholder="Find Nipper By Name..."
+                        ng-keypress="model.myFunc($event, model.searchText)">
                 <a href="#/listAll/{{model.searchText}}"
                    class="bg-color col-lg-1 col-md-1 col-sm-1 col-xs-1">
                     <i class="fas fa-search"></i>

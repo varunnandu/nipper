@@ -9,10 +9,14 @@
 
         $routeProvider
         .when("/", {
-            templateUrl: "templates/home.view.client.html"
+            templateUrl: "templates/home.view.client.html",
+            controller: "HomeController",
+            controllerAs: "model"
         })
         .when("/home", {
-            templateUrl: "templates/home.view.client.html"
+            templateUrl: "templates/home.view.client.html",
+            controller: "HomeController",
+            controllerAs: "model"
             })
             .when("/listAll", {
                 templateUrl: "templates/nipper-list-all.view.client.html",

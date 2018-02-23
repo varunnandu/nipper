@@ -1,5 +1,4 @@
 module.exports = function (app, model) {
-    var q = require('q');
     app.get("/api/nipper/statues", getAllStatues);
     app.get("/api/nippers/:name", getNipperByName);
     app.get("/api/nipper/:id", getNipperById);
